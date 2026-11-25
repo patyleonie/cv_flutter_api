@@ -851,16 +851,6 @@ class _SampleDataNotice extends StatelessWidget {
         children: [
           Icon(Icons.info_outline_rounded, color: Color(0xFF916A17), size: 19),
           SizedBox(width: 10),
-          Expanded(
-            child: Text(
-              'Exemples fictifs à confirmer : le parcours et les membres de la famille ne sont pas des informations vérifiées.',
-              style: TextStyle(
-                color: Color(0xFF755816),
-                fontSize: 12,
-                height: 1.45,
-              ),
-            ),
-          ),
         ],
       ),
     );
